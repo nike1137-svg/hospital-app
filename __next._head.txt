@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[97367,["/hospital-app/_next/static/chunks/3rdqn8rx95pw7.js","/hospital-app/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+3:I[97367,["/hospital-app/_next/static/chunks/3rdqn8rx95pw7.js","/hospital-app/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+5:I[27201,["/hospital-app/_next/static/chunks/3rdqn8rx95pw7.js","/hospital-app/_next/static/chunks/14mrh2-p_w84d.js"],"IconMark"]
+0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"병원동행 매칭 서비스"}],["$","meta","1",{"name":"description","content":"우리 동네에서 믿을 만한 경력·자격의 요양보호사를 찾아 병원동행을 매칭받으세요."}],["$","link","2",{"rel":"icon","href":"/hospital-app/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L5","3",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"nlCEclIEvCX2XSaFH5XG6"}

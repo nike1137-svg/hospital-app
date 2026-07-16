@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[9191,["/hospital-app/_next/static/chunks/3rdqn8rx95pw7.js","/hospital-app/_next/static/chunks/14mrh2-p_w84d.js","/hospital-app/_next/static/chunks/13p8ymcg91d32.js","/hospital-app/_next/static/chunks/2vvyinx3xfmyg.js"],"default"]
+3:I[97367,["/hospital-app/_next/static/chunks/3rdqn8rx95pw7.js","/hospital-app/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"children":[["$","div",null,{"className":"mb-6","children":[["$","h1",null,{"className":"text-2xl font-bold","children":"요양보호사 찾기"}],["$","p",null,{"className":"mt-1 text-foreground/60","children":"지역·경력·자격 조건으로 매칭 결과를 확인하세요."}]]}],["$","$L2",null,{}]]}],[["$","script","script-0",{"src":"/hospital-app/_next/static/chunks/13p8ymcg91d32.js","async":true}],["$","script","script-1",{"src":"/hospital-app/_next/static/chunks/2vvyinx3xfmyg.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"nlCEclIEvCX2XSaFH5XG6"}
+5:null
