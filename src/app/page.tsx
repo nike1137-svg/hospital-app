@@ -1,65 +1,73 @@
-import Image from "next/image";
+import Link from "next/link";
+import CaregiverCount from "@/components/CaregiverCount";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <div>
+      {/* 히어로 */}
+      <section className="text-center py-10">
+        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
+          병원 갈 때, 믿을 만한
+          <br />
+          <span className="text-teal-600">요양보호사</span>와 함께
+        </h1>
+        <p className="mt-4 text-foreground/70 max-w-xl mx-auto">
+          우리 동네에서 · 경력과 자격을 확인하고 · 조건에 맞는 요양보호사를
+          찾아 병원동행을 매칭받으세요.
+        </p>
+        <div className="mt-7 flex flex-wrap justify-center gap-3">
+          <Link
+            href="/caregivers"
+            className="px-5 py-3 rounded-lg bg-teal-600 text-white font-medium hover:bg-teal-700 transition-colors"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            요양보호사 찾기
+          </Link>
+          <Link
+            href="/register/request"
+            className="px-5 py-3 rounded-lg border border-black/15 dark:border-white/20 font-medium hover:bg-black/5 dark:hover:bg-white/10 transition-colors"
           >
-            Documentation
-          </a>
+            동행 요청하기
+          </Link>
         </div>
-      </main>
+      </section>
+
+      {/* 이용 흐름 3단계 */}
+      <section className="mt-8 grid gap-4 sm:grid-cols-3">
+        {[
+          {
+            step: "1",
+            title: "요양보호사 등록",
+            desc: "자격·경력·지역 정보를 등록해 일감을 받습니다.",
+            href: "/register/caregiver",
+          },
+          {
+            step: "2",
+            title: "사용자 등록",
+            desc: "동행이 필요한 날짜·지역·조건을 등록합니다.",
+            href: "/register/request",
+          },
+          {
+            step: "3",
+            title: "매칭 결과",
+            desc: "조건에 맞는 요양보호사를 찾아 연결합니다.",
+            href: "/caregivers",
+          },
+        ].map((s) => (
+          <Link
+            key={s.step}
+            href={s.href}
+            className="rounded-xl border border-black/10 dark:border-white/15 p-5 hover:border-teal-500 transition-colors"
+          >
+            <div className="w-8 h-8 rounded-full bg-teal-600 text-white flex items-center justify-center font-bold text-sm">
+              {s.step}
+            </div>
+            <h3 className="mt-3 font-semibold">{s.title}</h3>
+            <p className="mt-1 text-sm text-foreground/60">{s.desc}</p>
+          </Link>
+        ))}
+      </section>
+
+      <CaregiverCount />
     </div>
   );
 }

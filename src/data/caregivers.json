@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "김순자",
+    "isCertified": true,
+    "careerYears": 8,
+    "address": "서울 강북구 수유동",
+    "ageGroup": "50대",
+    "additionalCertifications": ["치매전문 요양보호사 교육 이수", "심폐소생술(CPR) 교육"]
+  },
+  {
+    "id": 2,
+    "name": "이영희",
+    "isCertified": true,
+    "careerYears": 3,
+    "address": "서울 노원구 상계동",
+    "ageGroup": "40대",
+    "additionalCertifications": ["간호조무사 자격증"]
+  },
+  {
+    "id": 3,
+    "name": "박정숙",
+    "isCertified": true,
+    "careerYears": 12,
+    "address": "경기 고양시 덕양구",
+    "ageGroup": "60대",
+    "additionalCertifications": ["사회복지사 2급", "치매전문 요양보호사 교육 이수"]
+  },
+  {
+    "id": 4,
+    "name": "최미경",
+    "isCertified": true,
+    "careerYears": 5,
+    "address": "서울 성북구 길음동",
+    "ageGroup": "40대",
+    "additionalCertifications": ["응급처치 자격증", "운전 가능(자차 보유)"]
+  },
+  {
+    "id": 5,
+    "name": "정말순",
+    "isCertified": true,
+    "careerYears": 15,
+    "address": "인천 부평구 부평동",
+    "ageGroup": "60대",
+    "additionalCertifications": ["호스피스 교육 이수", "치매전문 요양보호사 교육 이수"]
+  },
+  {
+    "id": 6,
+    "name": "한지원",
+    "isCertified": false,
+    "careerYears": 1,
+    "address": "서울 도봉구 창동",
+    "ageGroup": "30대",
+    "additionalCertifications": ["요양보호사 자격 취득 교육 수강 중"]
+  }
+]
