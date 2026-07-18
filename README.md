@@ -8,7 +8,7 @@
 
 ## 🔗 배포 주소
 
-- **라이브 사이트**: https://nike1137-svg.github.io/hospital-app/ *(배포 후 활성화)*
+- **라이브 사이트**: https://nike1137-svg.github.io/hospital-app/
 
 ---
 
@@ -88,7 +88,7 @@ npm run build
 ## 🗺️ 개발 로드맵
 
 - [x] **Phase 1** — 프론트엔드 + 목업 데이터 (화면 5개)
-- [ ] **Phase 2** — GitHub Pages 배포
-- [ ] **Phase 3** — 백엔드(Supabase) 연동: 데이터 저장·로그인·매칭
+- [x] **Phase 2** — GitHub Pages 배포
+- [x] **Phase 3** — 백엔드(Supabase) 연동: 데이터 저장·로그인·매칭
 
 > 상세 기획은 저장소 밖 `병원동행서비스_PRD.md` 참고.
