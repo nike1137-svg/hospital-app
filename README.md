@@ -95,6 +95,9 @@ npm run build
 - [x] **Phase 1** — 프론트엔드 + 목업 데이터 (화면 5개)
 - [x] **Phase 2** — GitHub Pages 배포 (GitHub Actions 자동 배포)
 - [x] **Phase 3** — 백엔드(Supabase) 연동: 데이터 저장·조회 (요양보호사 등록, 동행 요청)
+- [x] **Phase 4** — 보안 자가점검 (RLS 실측 검증: 조회 허용, 삭제·수정 차단, 개인정보 비공개 확인)
+- [x] **Phase 5** — 문서화 (PRD·API 명세·보안점검 등 `docs/` 폴더로 정리)
+- [x] **Phase 6** — 피어 리뷰 반영 · 제출 준비 완료
 
 ## 📚 상세 문서 (`docs/`)
 
